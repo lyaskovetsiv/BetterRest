@@ -39,8 +39,16 @@ struct ContentView: View {
 						in: 1...20,
 						step: 1)
 			}
+			.navigationTitle("BetterRest")
+			.toolbar {
+				Button("Calculate", action: calculateBedTime)
+			}
 		}
     }
+	
+	private func calculateBedTime() {
+		
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
