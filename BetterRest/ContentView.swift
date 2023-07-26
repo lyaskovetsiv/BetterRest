@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+	
+	// MARK: - States
+	
+	@State private var wakeUp: Date = Date.now
+	@State private var sleepAmount = 8.0
+	@State private var coffeAmount = 1
+	
     var body: some View {
         VStack {
             Image(systemName: "globe")
