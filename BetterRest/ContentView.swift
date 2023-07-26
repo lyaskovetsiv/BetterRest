@@ -39,6 +39,7 @@ struct ContentView: View {
 	
     var body: some View {
 		NavigationView {
+			VStack {
 				Form {
 					Section {
 						DatePicker("Please enter a time",
@@ -69,8 +70,13 @@ struct ContentView: View {
 					} header: {
 						Text("Daily coffee intake")
 					}
-					Text("\(sleepTime.formatted(date: .omitted, time: .shortened))")
 				}
+				VStack {
+					Text("Your better time to sleep")
+					Text("\(sleepTime.formatted(date: .omitted, time: .shortened))")
+						.font(.largeTitle)
+				}
+			}
 			.navigationTitle("BetterRest")
 		}
     }
