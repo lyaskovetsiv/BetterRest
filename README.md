@@ -7,5 +7,9 @@ Its main purpose is to display the time at which you need to go to bed in order 
 
 Tech Stack: SwiftUI, MVC, CoreML
 
-https://github.com/lyaskovetsiv/BetterRest/assets/100786077/7832cf78-6b15-4492-b7db-d3c7e69cd45f
+
+
+https://github.com/lyaskovetsiv/BetterRest/assets/100786077/5885cf17-c556-4481-814b-fddd1d2a2b3c
+
+
 
